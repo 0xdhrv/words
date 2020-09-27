@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap');
+
+/* * {
+    font-weight: 300;
+} */
+
+body {
+    font-family: 'Inter', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+::selection {
+    /* color: #3f3f3f; */
+    background-color: rgba(127, 127, 127, 0.5);
+}
+
+div {
+    font-optical-sizing: true;
+}
+
+@-moz-document url-prefix() {
+    html {
+        scrollbar-width: none;
+    }
+}
+
+*,
+*:focus,
+*:hover {
+    outline: none;
+}
+
+body {
+    margin: 0;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    overflow-y: scroll;
+}
+
+body::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+}
